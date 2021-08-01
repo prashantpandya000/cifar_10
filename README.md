@@ -24,20 +24,22 @@ Create three neural network models and train each for the classsification task a
 the models described should be a different Python class with the specified name.
 
 <h2>NetA</h2>
-The first neural network will be the simplest, in that it has no hidden layers. It should take the image
+The first neural network will be the simplest, in that it has no hidden layers. 
+It should take the image
 and flatten it to a vector for the input, and then have 10 outputs, one for each class.
 There should be no non-linearities for this network and is just a very simple linear classifier.
+
 <h2>NetB</h2>
 The second neural network will be slightly more complicated in that it has a hidden layer with 300
-nodes and adds a non-linearity between the layers. It should use the following operations in this
+nodes and adds a non-linearity between the layers. 
+It should use the following operations in this
 order:
 Flatten the image to a vector for the input
 Use a fully-connected linear layer with 300 hidden-neurons
 Use the ReLU activation function
 Use a fully-connected linear layer to the 10 outputs.
-Neural Network-Training And Evaluation
-7/30/2021 BasicNeuralNetwork-TrainingAndEvaluation.ipynb - Colaboratory
-https://colab.research.google.com/drive/1qD8Z6RXVzch4eTWoru19_AtvtrPsZc4A#scrollTo=JJORzpttqKNl&printMode=true 
+
+
 <h2>NetC</h2>
 This third neural network will be a convolutional neural network. It should use the following
 operations in this order:
